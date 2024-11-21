@@ -1,0 +1,137 @@
+/* General Styles */
+.main-con-login{
+    background-color: black;
+}
+
+.main-con {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.con {
+    width: 60%;
+    display: flex;
+    margin: 2rem 2rem;
+    justify-items: center;
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Logo Section */
+.website-logo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.website-logo-image {
+    border-radius: 100%;
+    margin: auto;
+}
+
+h5 {
+    font-size: xx-large !important;
+    font-weight: 700 !important;
+}
+
+/* Form Container */
+.login-container {
+    padding: 2rem;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.login-card {
+    width: 24rem;
+    color: #4a4a4a;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.login-header h3 {
+    color: #fdfdfd;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Form */
+.login-form {
+    margin-top: 1rem;
+}
+
+.login-form-group {
+    margin-bottom: 1rem;
+}
+
+.login-input-field {
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    color: #000000 !important;
+    background: transparent;
+    border: 2px solid #ffffff !important;
+    border-radius: 3rem !important;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.login-input-field:hover {
+    background: white;
+    color: black;
+    transition: all 1s;
+}
+
+.login-input-field:focus {
+    border-color: #6366f1;
+}
+
+.login-error-message {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+/* Buttons */
+.login-signin-submit-btn {
+    margin: auto;
+    width: 106%;
+    padding: 0.5rem;
+    background-color: #000000;
+    color: white;
+    font-weight: 700;
+    border: 2px solid;
+    cursor: pointer;
+    border-radius: 3rem;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.login-signin-submit-btn:hover {
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-signin-submit-btn.login-disabled {
+    background-color: #d1d5db;
+    cursor: not-allowed;
+}
+
+/* Link */
+.login-signup-link, .login-signup-link a {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6366f1;
+    font-weight: bold;
+    text-decoration: underline;
+}

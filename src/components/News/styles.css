@@ -1,0 +1,65 @@
+/* Container for the whole news list */
+.newz {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+
+/* Styling each news item box */
+.news-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 350px;
+    padding: 1rem;
+    background-color: var(--darkgrey);
+    border-radius: 2rem;
+    /* border-radius: 1rem; */
+    /* text-align: center; */
+    /* overflow: hidden; */
+}
+
+.news-grid:hover {
+    border: 2px solid var(--blue);
+    /* border: 2px solid white; */
+    transition: all 1.3s; 
+    transform: scale(1.025);
+}
+
+/* Title styling */
+.news-grid h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--white);
+    margin: 0;
+    /* text-align: center; */
+}
+
+/* Image styling */
+.news-image {
+    height: 230px;
+    width: 95%;
+    border: 2px solid white;
+    /* object-fit: cover; */
+}
+
+/* Description styling */
+.news-grid p {
+    font-size: 0.8rem;
+    color: var(--grey);
+    margin: 0;
+}
+
+/* Link styling */
+.news-grid a {
+    /* text-decoration: none; */
+    color: var(--green);
+    font-weight: 600;
+    margin-top: 0.5rem;
+    display: block;
+    font-size: 0.9rem;
+}
