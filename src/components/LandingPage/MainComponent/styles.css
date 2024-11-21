@@ -36,6 +36,7 @@
   
   .gradient-div {
     position: relative;
+    height: 410px;
     width: 50%;
     margin-left: auto;
   }

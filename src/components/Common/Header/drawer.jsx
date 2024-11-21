@@ -4,7 +4,7 @@ import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import { IconButton } from "@mui/material";
 import Switch from "@mui/material/Switch";
 import { toast } from "react-toastify";
-
+import LogoutButton from "../../auth/logOut";
 export default function TemporaryDrawer() {
   const [open, setOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(
@@ -60,6 +60,7 @@ export default function TemporaryDrawer() {
           <a href="/dashboard">
             <p className="link">Dashboard</p>
           </a>
+          <LogoutButton/>
           <Switch checked={darkMode} onClick={() => changeMode()} />
         </div>
       </Drawer>

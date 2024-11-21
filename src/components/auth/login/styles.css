@@ -25,6 +25,7 @@ h5 {
 
 .website-logo {
     /* background-color: #4f46e5; */
+    min-width: 300px;
     width: 50%;
     display: flex;
     /* flex-wrap: wrap; */
@@ -190,3 +191,10 @@ h5 {
     height: 50px;
     /* width: 100px; */
 }
+
+
+@media only screen and (max-width: 600px) {
+    .con{
+        flex-wrap: wrap;
+    }
+  }

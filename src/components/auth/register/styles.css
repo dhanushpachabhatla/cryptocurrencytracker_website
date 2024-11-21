@@ -23,6 +23,7 @@
 /* Logo Section */
 .website-logo {
     width: 50%;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
