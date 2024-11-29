@@ -13,6 +13,8 @@ import News from "./pages/News";
 import Login from "./components/auth/login";
 import { AuthProvider } from "./contexts/authContext";
 import Register from "./components/auth/register";
+
+
 function App() {
   const theme = createTheme({
     palette: {
